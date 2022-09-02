@@ -11,7 +11,7 @@
 Console.WriteLine($"Введите размер массива (m x n): ");
 int m = InputNumbers("Введите m: ");
 int n = InputNumbers("Введите n: ");
-int range = InputNumbers("Введите диапазон: от 99 до ");
+int range = InputNumbers("Введите диапазон: от 1 до ");
 
 int[,] matrix = new int[m, n];
 CreateMatrix(matrix);
