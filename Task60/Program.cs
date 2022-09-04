@@ -5,9 +5,9 @@
 //27(0, 0, 1) 90(0, 1, 1)
 //26(1, 0, 1) 55(1, 1, 1)
 
-int deep1 = InputInt("Введите размерность 1: ");
-int deep2 = InputInt("Введите размерность 2: ");
-int deep3 = InputInt("Введите размерность 3: ");
+int deep1 = InputInt("Введите первую размерность: ");
+int deep2 = InputInt("Введите вторую размерность: ");
+int deep3 = InputInt("Введите третью размерность: ");
 int countNums = 89;
 
 if (deep1 * deep2 * deep3 > countNums)
